@@ -16,7 +16,7 @@ var empty = null;
 var phone_number = "07888777396";
 // create a variable called friend
 // extract the second value from your names_array and put it in friend
-var friend = myArray.indexOf("Harry");
+var friend = names_array[1];
 // create a variable called quote that contains the following sentence
 // I'm not a number, I'm fairly sure I'm a String
 var sentence = "I'm not a number, I'm fairly sure I'm a String"
@@ -26,3 +26,11 @@ var sentence_length = sentence.length;
 // BONUS
 // Research how to create a JSON object called person
 // Use the person object tests to add the correct data
+var person = {
+   "name":first_name,
+    "friends":names_array,
+    "age":age,
+    "phone_number":phone_number,
+    "best_friend":friend,
+    "quote":sentence
+}
