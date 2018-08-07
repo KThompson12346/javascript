@@ -1,3 +1,4 @@
+alert("")
 // First variable
 var a = 5;
 

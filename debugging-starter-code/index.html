@@ -6,8 +6,41 @@
   <script>
       var a = 10;
       var b = 5;
-      var c = a + bb;
-      consol.log(c);
+      var c = a + b;
+      console.log(c);
+
+      var myString = "Hello";
+      console.log(myString + " Everyone");
+      console.log(myString.length);
+      console.log(myString.indexOf("e"));
+      console.log(myString.substr(2,4));
+
+      var myNumber = 5;
+      console.log(myNumber + 3);
+      console.log(myNumber - 2);
+      console.log(myNumber * 2);
+      console.log(myNumber / 2);
+      myNumber++;
+      console.log(myNumber);
+      console.log(isFinite(myNumber));
+
+      var myArray = [5,6,7,"a","b"];
+      console.log(myArray.length);
+      myArray[2] = 8;
+      console.log(myArray);
+      console.log(myArray + ["more" , "stuff"]);
+      myArray.push("I'm at the end");
+      console.log(myArray);
+      console.log(myArray.pop());
+      console.log(myArray);
+      myArray.reverse();
+      console.log(myArray);
+
+      var myString = "5";
+      var myDecimalString = "2.5";
+      var myNumber = 3;
+      console.log( parseInt(myString) + myNumber ); // change string to integer        console.log( parseFloat(myDecimalString) + myNumber ); // change string to decimal ( float )
+      console.log( parseInt(myDecimalString) + myNumber ); // change decimalto integer ( remove the point )
   </script>
 </head>
 <body>
